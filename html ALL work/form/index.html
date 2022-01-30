@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<fieldset>
+    <legend><h1>All about Information</h1></legend>
+    <span>10/10/21, 12:39pm &emsp; &emsp; Sign In Form</span>
+    <form action="index.php" method="post" >
+    <h1>J.K.M.B Mallick High School</h1>
+    <h2>Admission Form</h2>
+    <hr>
+    <h1>Personal Information</h1>
+    <label for="name">NAME: </label><br>
+    <input type="text" id="name" value="Full Name"><br><br>
+    <label for="FATHER'S NAME">FATHER'S NAME: </label><br>
+    <input type="text" id="FATHER'S NAME" value="Father's Name"><br><br>
+    <label for="CNIC">FATHER'S CNIC: </label><br>
+    <input type="text" id="CNIC" value="Father's CNIC" maxlength="13" required="required"><br><br>
+    <label for="color">FAVORITE COLOR: </label><br>
+    <input type="color" id="color"><br><br>
+    <label for="dbt">D-O-B: </label><br>
+    <input type="date" id="dbt" value="dd/mm/yyyy"><br><br>
+    <label for="email">EMAIL: </label><br>
+    <input type="email" id="email" value="abc@xyz.com"><br><br><hr>
+    <h1>Residential Information</h1>
+    <label>CITY NAME: </label><br>
+    <input type="text" value="City Name"><br><br>
+    <label>PROVINCE: </label><br>
+    <select type="text" name="PROVINCE" id="email" value="City Name">
+        <option value="punjab">punjab</option>
+        <option value="sindh">sindh</option>
+        <option value="KPK">KPK</option>
+        <option value="Balochistan">Balochistan</option>
+    </select><br><br>
+    <label>COUNTRY:</label><br>
+    <select type="text" name="country" id="email" value="City Name">
+        <option value="Pak">Pak</option>
+        <option value="IND">IND</option>
+        <option value="UAE">UAE</option>
+        <option value="AFG">AFG</option>
+        <option value="BNG">BNG</option>
+    </select><br><br>
+    <label>GENDER:</label><br>
+    <input type="radio" id="male" name="gender" value="MALE">
+    <label for="male">MALE</label>
+    <input type="radio" id="female" name="gender" value="FEMALE">
+    <label for="female">FEMALE</label>
+    <input type="radio" id="other" name="gender" value="OTHER">
+    <label for="other">OTHER</label><br><hr>
+    <h1>Academic Information</h1>
+    <label>QUALIFICATION:</label><br>
+    <input type="checkbox" id="matric" name="degree" value="Matric Completed">
+    <label for="matric">Matric Completed</label><br>
+    <input type="checkbox" id="inter" name="degree" value="Inter Completed">
+    <label for="inter">Inter Completed</label><br>
+    <label for="class">Class:</label>
+    <input type="text" id="class" name="class" value="Grade"><br>
+    <label for="class">Name of Old School:</label>
+    <input type="text" id="class" name="class" value="ABC High School"><hr>
+    <button type="button">Submit</button><br>
+    <button type="reset" onclick="Reseted">Reset</button>
+</form>
+</fieldset>
+</body>
+</html>
