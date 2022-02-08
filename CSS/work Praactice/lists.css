@@ -1,0 +1,39 @@
+table{
+    /* border: solid 2px gray; */
+    border-collapse: collapse;
+    max-width: 100%;
+    padding: 15px;
+}
+thead,th,td{
+    /* border-bottom: solid 2px #ddd; */
+    text-align: left;
+    border-collapse: collapse;
+    padding: 8px;
+   }
+   tbody tr:nth-child(odd){
+       background-color: #F2F2F2;
+   }
+   th{
+       background-color: #04AA6D;
+       color: #FFFFFF;
+   }
+   #f1{
+    width: 500px;
+   }
+   #f2{
+    width: 500px;
+   }
+   .my{
+       position: fixed;
+       bottom: 0px;
+       right: 0px;
+       border: solid 2px #E7E9EB;
+       width: 300px;
+   }
+   .sticky{
+    position: sticky;
+    padding:5px;
+    top: 0;
+    border: dashed 3px black;
+    background-color: violet;
+   }

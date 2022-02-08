@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            border: #ccc 2px solid;
+            margin: 20px 238px;
+            padding: 20px;
+        }
+        h1,h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Chapters 82 - 89</h1>
+    <h1>Form Validation - Try, Catch and Throw</h1><hr>
+    <h2>Form 1: Text Field</h2>
+    <form action="index1.html" onSubmit="return checkForLastName();">
+        <label for="IN"></label>Please enter your last name. <br>
+        <input type="" id="lN">
+        <input type="submit" value="submit">
+    </form>
+    <h2>Form 2: Drop Down</h2>
+    <form action="index1.html" onSubmit="return checkForSelection('states');">
+        <select id="states">
+            <option value="" selected="selected"> <!-- The selected attribute specifies that an option should be pre-selected when the page loads. -->
+               SELECT A STATE</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+        </select>&nbsp;&nbsp;
+        <input type="submit" value="Submit Form">
+    </form>
+    <h2>Form 3: Radio Button</h2>
+    <form action="index1.html" onsubmit="return ValidateRadios('d');">
+        <label for="d"></label>Select your pet. <br>
+        <input type="radio" value="Cat" name="d">Cat<br>
+        <input type="radio" value="Dog" name="d">Dog<br>
+        <input type="radio" value="Hen" name="d">Hen<br>
+        <input type="submit" value="submit">
+    </form>
+    <h2>Form 4: Email Field</h2>
+    <form action="index1.html" onsubmit="return validatingEmail('email');">
+        <label for="email"></label>Please enter your email <br>
+        <input type="text" name="email" id="email">
+        <input type="submit" value="submit">
+    </form> 
+    <h2>Form 5: Password Field</h2>
+    <form action="index1.html" onsubmit="return validPassword('password')">
+        <label for="password"></label>Enter a password <br>
+        (8-12 characters, no spaces) <br>
+        <input type="text" name="password" id="password">
+        <input type="submit" value="submit">
+    </form>
+</body>
+<script src="./index.js"></script>
+</html>

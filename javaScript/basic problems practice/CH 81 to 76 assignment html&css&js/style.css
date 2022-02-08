@@ -1,0 +1,13 @@
+button{
+    height: 50px;
+    border-radius: 10px;
+}
+#output {
+    height: 50px;
+    width: auto;
+    border: 3px solid #ccc;
+    margin: 30px;
+}
+body{
+    text-align: center;
+}

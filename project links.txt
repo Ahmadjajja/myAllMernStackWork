@@ -1,0 +1,14 @@
+1)Bootstrap layout
+jajjaBootstrapLayout.tsurge.sh
+2)Bootstrap wine website
+jajjaBootstrap5WineWebsite.surge.sh
+3)Beat the button
+jajjaBeatTheButton.surge.sh
+4)Calculator
+jajjaCalculator.surge.sh
+5)User Management System
+jajjaUserManagementSystem.surge.sh
+6)Cuisine website(html&css)
+JajjasCuisine.surge.sh
+7)HTML&CSS website 2
+jajjasHTMLandCSSWebsite2.surge.sh

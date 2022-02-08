@@ -1,0 +1,36 @@
+a:link{
+    color:black;
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 10%;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+a:visited{
+    color:blueviolet;
+    text-decoration: underline;
+    background-color: violet;
+    border-radius: 10%;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+} 
+ a:hover{
+    color:orange;
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 10%;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+a:active{
+    color:green;
+    text-decoration: underline;
+    background-color: chocolate;
+    border-radius: 10%;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
