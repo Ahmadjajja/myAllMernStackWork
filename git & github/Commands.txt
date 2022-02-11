@@ -125,6 +125,43 @@ to push and in which branch of remote repository) standard single
 so it will show logs from that branch of remote---
 
 
+======Pushing a local branch to a remote repository======
+
+1) git branch work
+---this will create new branch 'work' on local repo---
+
+2) git checkout work 
+---Switch to 'work' branch---
+
+3) Make Changes
+
+4) git push -u origin work
+
+
+======Branches=====
+*master
+*development
+*feature/rss-feed
+*hotfix/missing-link
+
+
+	==>Pull Request               NOTE!(feature of github)					(Very important Concept Carefully note!)
+		* (member can just see the code but can't make changes in this particular branch and just can pull request 
+
+	  	  then team leader can accept pull accept if he agree with request.)
+
+		* When working in team we want to review code of team members and merge code in main branch only after that.
+
+		* For this purpose github provide pull request feature.
+
+		* In professional projects we will see very often.
+
+
+
+
+
+
+
 
 
 
